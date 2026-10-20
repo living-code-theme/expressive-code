@@ -1,0 +1,27 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Expressive Code",
+  "slug": "expressive-code",
+  "group": "Web & code",
+  "emoji": "📜",
+  "description": "Living Code for Expressive Code. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://expressive-code.com",
+  "quick": "Install @living-code/expressive-code",
+  "aliases": [
+    "expressive-code"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.json",
+    "living-code-night.json",
+    "living-code-paper.json",
+    "living-code-signal.json"
+  ],
+  "images": []
+}

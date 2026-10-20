@@ -1,0 +1,37 @@
+{
+  "name": "@living-code/expressive-code",
+  "version": "0.1.1",
+  "description": "Living Code for Expressive Code. Repository-owned theme files, installation instructions and four color flavors.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Living Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/living-code-theme/expressive-code.git"
+  },
+  "homepage": "https://github.com/living-code-theme/expressive-code",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "living-code-frost.json",
+    "living-code-night.json",
+    "living-code-paper.json",
+    "living-code-signal.json"
+  ],
+  "exports": {
+    "./living-code-frost.json": "./living-code-frost.json",
+    "./living-code-night.json": "./living-code-night.json",
+    "./living-code-paper.json": "./living-code-paper.json",
+    "./living-code-signal.json": "./living-code-signal.json"
+  },
+  "packageManager": "pnpm@12.9.0",
+  "livingCode": {
+    "kind": "npm"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs"
+  }
+}
