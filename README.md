@@ -5,10 +5,6 @@
 
 [Installation](#installation) · [Flavors](#flavors) · [Configuration](#configuration) · [All ports](https://github.com/living-code-theme)
 
-## Previews
-
-Real application screenshots have not been captured yet.
-
 ## Installation
 
 Use the dedicated themes for syntax highlighting, editor and terminal frames, copy buttons, line numbers, and highlighted or diff lines.
@@ -38,12 +34,10 @@ Night and Paper follow the visitor’s dark/light preference by default. Replace
 
 ## Flavors
 
-Expand a flavor for its full-size preview and activation instructions.
+Expand a flavor for its activation instructions.
 
 <details data-lc-flavor="night">
 <summary><strong>Night</strong> · Dark · full palette</summary>
-
-A real application capture is not available yet.
 
 Import `@living-code/expressive-code/living-code-night.json` and pass it to the integration's `themes` option. With the JavaScript API, wrap it in `new ExpressiveCodeTheme(theme)`.
 
@@ -52,8 +46,6 @@ Import `@living-code/expressive-code/living-code-night.json` and pass it to the 
 <details data-lc-flavor="frost">
 <summary><strong>Frost</strong> · Dark · softer chroma</summary>
 
-A real application capture is not available yet.
-
 Import `@living-code/expressive-code/living-code-frost.json` and pass it to the integration's `themes` option. With the JavaScript API, wrap it in `new ExpressiveCodeTheme(theme)`.
 
 </details>
@@ -61,16 +53,12 @@ Import `@living-code/expressive-code/living-code-frost.json` and pass it to the 
 <details data-lc-flavor="paper">
 <summary><strong>Paper</strong> · Light · near-white slate</summary>
 
-A real application capture is not available yet.
-
 Import `@living-code/expressive-code/living-code-paper.json` and pass it to the integration's `themes` option. With the JavaScript API, wrap it in `new ExpressiveCodeTheme(theme)`.
 
 </details>
 
 <details data-lc-flavor="signal">
 <summary><strong>Signal</strong> · Dark · teal accent</summary>
-
-A real application capture is not available yet.
 
 Import `@living-code/expressive-code/living-code-signal.json` and pass it to the integration's `themes` option. With the JavaScript API, wrap it in `new ExpressiveCodeTheme(theme)`.
 
