@@ -1,6 +1,6 @@
 {
   "name": "@living-code/expressive-code",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Living Code for Expressive Code. Repository-owned theme files, installation instructions and four color flavors.",
   "type": "module",
   "license": "MIT",
@@ -29,7 +29,9 @@
   "livingCode": {
     "kind": "npm"
   },
-  "devDependencies": { "shiki": "4.5.0" },
+  "devDependencies": {
+    "shiki": "4.5.0"
+  },
   "scripts": {
     "check": "node scripts/check.mjs",
     "test": "node scripts/check.mjs && node --test test/*.test.mjs",
